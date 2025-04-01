@@ -200,7 +200,7 @@ const Main = () => {
 
           {/* Footer */}
           <div className="bottom-info">
-            <p>Chatsphere fusion</p>
+            <p>Holarohit Studio</p>
           </div>
         </div>
       </div>
