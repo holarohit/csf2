@@ -21,7 +21,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/signup', formData);
+      const response = await axios.post('https://csf2.onrender.com/api/signup', formData);
       console.log(response.data.message);
       navigate('/login');
     } catch (err) {
