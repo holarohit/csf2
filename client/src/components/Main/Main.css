@@ -274,11 +274,14 @@
 /* ✅ Responsive Design for Mobile Screens */
 @media (max-width: 600px) {
   .main-bottom {
-    padding: 10px;
+    padding: 22px;
+    
   }
 
   .search-box {
-    padding: 12px;
+    margin-left: -25px;
+    margin-right: 12px;
+    padding: 10px;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -307,5 +310,14 @@
   .generated-image img {
     max-width: 95%;
     margin: 15px 0;
+    margin-left: -38px;
+
+  }
+
+  .bottom-info{
+    margin-left: -40px;
+  }
+  .image-loading{
+    margin-left: -40px;
   }
 }
